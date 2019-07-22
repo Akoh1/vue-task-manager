@@ -6,6 +6,7 @@ import AdminSignup from "./views/AdminSignup.vue"
 import AdminLogin from "./views/AdminLogin.vue"
 import UserLogin from "./views/UserLogin.vue"
 import Dashboard from "./components/Dashboard.vue"
+import UserDashboardView from "./views/UserDashboardView.vue";
 
 Vue.use(Router)
 
@@ -19,6 +20,11 @@ export default new Router({
       path: '/dashboard',
       name: 'dashboard',
       component: Dashboard
+    },
+    {
+      path: '/user/dashboard',
+      name: 'user-dashboard',
+      component: UserDashboardView
     },
     {
       path: '/register/admin',

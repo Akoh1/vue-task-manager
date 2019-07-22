@@ -7,7 +7,7 @@
           <v-text-field label="Username"></v-text-field>
           <v-text-field label="Email"></v-text-field>
           <v-text-field label="Organization"></v-text-field>
-          <v-text-field label="Password"></v-text-field>
+          <v-text-field type="password" label="Password"></v-text-field>
           <v-btn>submit</v-btn>
         </v-container>
       </v-form>
